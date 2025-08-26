@@ -3,36 +3,10 @@ body {
 }
 
 .Main-Box {
-    width : 900px;
-    height : 300px;
-    padding-top: 1%;
-    margin : auto;
-    margin-top : 10%;
-    text-align : center;
-    background-color :rgb(11, 184, 49);
-    border-radius : 10px;
-    box-shadow : 0px 0px 10px grey;
-}
-
-#Get-weather {
-    margin-top : 10%;
-    padding : 10px;
-}
-
-#Weather-Info {
+    align-self: center;
     display: flex;
-    margin-top : 10%;
-    justify-content: space-between;
-    padding: 1%;
-}
-
-#Temperature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#City-search {
+    flex-direction: column;
     width : 300px;
-    
+    height : 300px;
+    border: 2px solid black;
 }
