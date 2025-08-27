@@ -3,10 +3,36 @@ body {
 }
 
 .Main-Box {
-    align-self: center;
     display: flex;
     flex-direction: column;
-    width : 300px;
+    width : 500px;
     height : 300px;
-    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#City-search {
+    margin-top: 20px;
+    padding: 3px;
+    width : 400px;
+    height : 50px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    color : darkviolet;
+}
+
+#Get-weather {
+    margin-top: 20px;
+    padding: 3px;
+    width : 150px;
+    height : 50px;
+    background-color : lightgreen;
+    color : darkblue;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
 }
