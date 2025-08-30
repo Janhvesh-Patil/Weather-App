@@ -12,8 +12,15 @@ getWeatherBtn.addEventListener("click", () => {
     console.log(response);
 
     let data = await response.json();
-    console.log("Lattitude : ", data.location.lat);
-    console.log("Longitutde : ", data.location.lon);
+    console.log("Lattitude -> ", data.location.lat);
+    console.log("Longitutde -> ", data.location.lon);
+    console.log("Weather -> ", data.current.condition.text);
+    console.log("Temperature (C) -> ", data.current.temp_c);
+    console.log("Temperature (F) -> ", data.current.temp_f);
+    console.log("Humidity : ", data.current.humidity);
+    console.log("Wind Data -> [ 'Wind speed(mph)' : ", data.current.wind_mph, ", 'Wind speed(kph)' : ", data.current.wind_kph, " , 'Wind Degree' : ", data.current.wind_degree, " , 'Wind Direction' : ", data.current.wind_dir, " ]");
+
+    
     }
 
     promise();
