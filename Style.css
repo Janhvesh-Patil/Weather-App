@@ -19,6 +19,7 @@ body {
     align-items: center;
     margin: auto;
     margin-top: 75px;
+    margin-bottom: 1px;
     border: 2px solid black;
 }
 
@@ -49,32 +50,31 @@ body {
 
 .Weather-Box {
     display: flex;
-    align-content: flex-start;
+    align-items: flex-start;
     justify-content: space-evenly;
     width : 80%;
     height : 300px;
     align-items: center;
     margin: auto;
-    margin-top: 50px;
     border: 2px solid black;
 }
 
 #Location {
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 
 #Temperature {
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 
 #Weather {
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 
 #Humidity {
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 
 #Wind-Speed {
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
