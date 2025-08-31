@@ -1,13 +1,17 @@
 body {
-    background-color : blanchedalmond;
+    /* background-color : blanchedalmond; */
+    background-image: url("Pictures/ImgBg.jpg");
+    background-size: cover;          
+    background-repeat: no-repeat;     
+    background-position: center; 
 }
 
 .Heading {
     text-align: center;
-    color : darkblue;
-    font-size: 100px;
+    color : #003366;
+    font-size: 80px;
     font-weight: bold;
-    text-decoration: underline;
+    font-family: "Open Sans";
     margin-top: 50px;
 }
 
@@ -20,20 +24,20 @@ body {
     margin: auto;
     margin-top: 75px;
     margin-bottom: 1px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 #City-search {
     margin-top: 20px;
     padding: 3px;
-    width : 400px;
-    height : 50px;
+    width : 500px;
+    height : 60px;
     border-radius: 50px;
-    background-color: aquamarine;
-    font-size: medium;
-    font-weight: bold;
+    background-color: rgb(135, 222, 242);
+    font-size: xx-large;
+    font-weight: bolder;
     text-align: center;
-    color : darkviolet;
+    color : rgb(1, 1, 177);
 }
 
 #Get-weather {
@@ -48,6 +52,12 @@ body {
     font-size: medium;
 }
 
+#Get-weather:hover {
+    background-color : green;
+    color : white;
+    cursor: pointer;
+}
+
 .Weather-Box {
     display: flex;
     align-items: flex-start;
@@ -56,25 +66,37 @@ body {
     height : 300px;
     align-items: center;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+h2 {
+    color :lightseagreen;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 #Location {
+    align-self: flex-start;
+
     /* border: 2px solid darkgreen; */
 }
 
 #Temperature {
+    align-self: flex-start;
     /* border: 2px solid darkgreen; */
 }
 
 #Weather {
+    align-self: flex-start;
     /* border: 2px solid darkgreen; */
 }
 
 #Humidity {
+    align-self: flex-start;
     /* border: 2px solid darkgreen; */
 }
 
 #Wind-Speed {
+    align-self: flex-start;
     /* border: 2px solid darkgreen; */
 }
