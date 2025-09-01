@@ -9,10 +9,13 @@ getWeatherBtn.addEventListener("click", () => {
 
     let promise = async () => {
     let response = await fetch(url);
-    console.log(response);
     
-    // Respones
+    // Response
     let data = await response.json();
+
+    const icon_url = data.current.condition.icon;
+
+    document.getElementById("Weather-icon").innerHTML = `<span class="material-symbols-outlined"><img src="${icon_url}" alt="Weather Icon"></span>`;
         
     //Location data
     document.getElementById("Location-info").innerHTML = `Lattitude : ${data.location.lat} <br> Longitude : ${data.location.lon}`;
@@ -27,7 +30,7 @@ getWeatherBtn.addEventListener("click", () => {
     document.getElementById("Humidity-data").innerHTML = `${data.current.humidity} %`;
 
     //Wind Data
-    document.getElementById("Wind-data").innerHTML = `Wind speed (mph) : ${data.current.wind_mph} mph <br> Wind speed (kmph) : ${data.current.wind_kph} kmph <br> Wind Degree : ${data.current.wind_degree} ° <br> Wind Direction : ${data.current.wind_dir}`;
+    document.getElementById("Wind-data").innerHTML = `Wind speed (mph) : ${data.current.wind_mph} <br> Wind speed (kmph) : ${data.current.wind_kph} <br> Wind Degree : ${data.current.wind_degree} ° <br> Wind Direction : ${data.current.wind_dir}`;
     }
     promise();
 })

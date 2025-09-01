@@ -85,6 +85,7 @@ h2 {
     height : 500px;
     width: 400px;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 #Temperature {
@@ -97,6 +98,7 @@ h2 {
     height : 500px;
     width: 400px;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 #Weather {
@@ -109,6 +111,7 @@ h2 {
     height : 500px;
     width: 400px;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 #Humidity {
@@ -121,6 +124,7 @@ h2 {
     height : 500px;
     width: 400px;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 #Wind-Data {
@@ -133,14 +137,5 @@ h2 {
     height : 500px;
     width: 400px;
     font-size: xx-large;
-}
-
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48;
-    font-size : 96px;
-    vertical-align: middle;
+    font-weight: bold;
 }
