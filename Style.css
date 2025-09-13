@@ -65,7 +65,7 @@ body {
     height : 600px;
     align-items: center;
     margin: auto;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 50px;
 }
 
@@ -86,13 +86,14 @@ h2 {
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    background-color: lightyellow;
+    background-color: aliceblue;
     border: 2px solid black;
     height : 500px;
     width: 350px;
     font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
+    font-family: "Ariel Black", sans-serif;
 }
 
 #Temperature {
@@ -102,7 +103,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    background-color: lightyellow;
+    background-color: aliceblue;
     height : 500px;
     width: 350px;
     font-size: x-large;
@@ -112,6 +113,7 @@ h2 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 1%;
+    font-family: "Ariel Black", sans-serif;
 }
 
 #Weather {
@@ -121,7 +123,7 @@ h2 {
     margin: auto;
     align-items: center;
     align-self: flex-start;
-    background-color: lightyellow;
+    background-color: aliceblue;
     height : 500px;
     width: 350px;
     font-size: x-large;
@@ -131,6 +133,7 @@ h2 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 1%;
+    font-family: "Ariel Black", sans-serif;
 }
 
 #Humidity {
@@ -140,7 +143,7 @@ h2 {
     align-items: center;
     align-self: flex-start;
     margin: auto;
-    background-color: lightyellow;
+    background-color: aliceblue;
     height : 500px;
     width: 350px;
     font-size: x-large;
@@ -150,6 +153,7 @@ h2 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 1%;
+    font-family: "Ariel Black", sans-serif;
 }
 
 #Wind-Data {
@@ -158,7 +162,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    background-color: lightyellow;
+    background-color: aliceblue;
     height : 500px;
     width: 400px;
     font-size: x-large;
@@ -168,6 +172,7 @@ h2 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 1%;
+    font-family: "Ariel Black", sans-serif;
 }
 
 .weather-img {

@@ -34,7 +34,7 @@ async function fetchWeather(cityLocation) {
     document.getElementById("Temp-info").innerHTML = `Celcius : ${data.current.temp_c} °C <br> Fahrenheit : ${data.current.temp_f} °F <br> UV Index : ${UV_Index} <br> <br>`;
     
     // Weather data
-    document.getElementById("Weather-info").innerHTML = `${data.current.condition.text} <br> Visibility: ${data.current.vis_km} km <br> Pressure: ${data.current.pressure_mb} mb <br> <br>`;
+    document.getElementById("Weather-info").innerHTML = `Condition : ${data.current.condition.text} <br> Visibility: ${data.current.vis_km} km <br> Pressure: ${data.current.pressure_mb} mb <br> <br>`;
 
     // Humidity data
     document.getElementById("Humidity-data").innerHTML = `Humidity % : ${data.current.humidity} % <br> Cloud Cover: ${data.current.cloud} % <br> Precipitation: ${data.current.precip_mm} mm <br> <br>`;
