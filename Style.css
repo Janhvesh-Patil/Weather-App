@@ -1,6 +1,5 @@
 body {
-    /* background-color : blanchedalmond; */
-    background-image: url("Pictures/ImgBg.jpg");
+    background-image: url("Pictures/photo_2025-09-13_16-42-25.jpg");
     background-size: cover;          
     background-repeat: no-repeat;     
     background-position: center; 
@@ -71,7 +70,7 @@ body {
 }
 
 h2 {
-    color :lightseagreen;
+    color :rgb(0, 0, 122);
     text-decoration: none;
     margin-bottom: 10px;
     font-family: "Comic Sans MS", cursive;
@@ -91,7 +90,7 @@ h2 {
     border: 2px solid black;
     height : 500px;
     width: 350px;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
 }
@@ -106,7 +105,7 @@ h2 {
     background-color: lightyellow;
     height : 500px;
     width: 350px;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
     border: 2px solid black;
@@ -125,7 +124,7 @@ h2 {
     background-color: lightyellow;
     height : 500px;
     width: 350px;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
     border: 2px solid black;
@@ -144,7 +143,7 @@ h2 {
     background-color: lightyellow;
     height : 500px;
     width: 350px;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
     border: 2px solid black;
@@ -162,11 +161,16 @@ h2 {
     background-color: lightyellow;
     height : 500px;
     width: 400px;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     border-radius: 20px;
     border: 2px solid black;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 1%;
+}
+
+.weather-img {
+    width: 120px;  
+    height: 120px;  
 }
