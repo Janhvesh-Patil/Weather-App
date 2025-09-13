@@ -31,12 +31,18 @@ body {
     padding: 3px;
     width : 500px;
     height : 60px;
-    border-radius: 50px;
-    background-color: rgb(135, 222, 242);
+    border-radius: 25px;
+    /* background-color: rgb(135, 222, 242); */
+    background-color: rgba(135, 222, 242, 0.5);
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
     color : rgb(1, 1, 177);
+}
+
+#City-search::placeholder {
+    color: rgb(1, 1, 177); /* Choose any color you like */
+    opacity: 1;     /* Make sure it's fully opaque */
 }
 
 #Get-weather {
