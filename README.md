@@ -22,17 +22,6 @@ A sleek, responsive weather application built using **HTML**, **CSS**, and **Jav
 
 ---
 
-### 📁 File Structure
-```
-Weather-App/
-├── Index.html       # Main HTML structure
-├── Style.css        # Styling and layout
-├── Script.js        # JavaScript logic and API integration
-├── Pictures/        # Image assets
-```
-
----
-
 ### 📚 What I Learned
 - API integration and asynchronous JavaScript  
 - DOM manipulation and event-driven programming  
